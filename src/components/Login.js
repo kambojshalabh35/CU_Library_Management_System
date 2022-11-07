@@ -30,7 +30,7 @@ const Login = (props) => {
 	return (
 		<div className="row">
 			<div className="col s12 m6 offset-m3">
-				<div className="card hoverable">
+				<div className="card hoverable" style={{margin: '70px 0'}}>
 					<div className="card-content">
 						<h5 className="center">Login to Dashboard</h5>
 						<form onSubmit={login}>
@@ -60,7 +60,7 @@ const Login = (props) => {
 							</div>
 							<div className="card-action center">
 								<button
-									className="waves-effect waves-light btn"
+									className="waves-effect green accent-4 waves-light btn"
 									style={{ margin: "18px" }}
 									type="submit"
 								>

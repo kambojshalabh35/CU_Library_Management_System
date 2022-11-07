@@ -10,6 +10,7 @@ const NavBar = () => {
 			<nav className="red darken-1">
 				<div className="container nav-wrapper">
 					<Link to="/books">
+						<img src="/favicon.png" alt="..." width={'55px'} style={{borderRadius:'10px', marginTop:'5px', marginRight:'15px'}} />
 						<span className="brand-logo">CU Library Management System</span>
 					</Link>
 					{user !== null ? (
